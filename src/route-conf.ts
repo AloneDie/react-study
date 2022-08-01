@@ -21,6 +21,12 @@ const RouteConfig: Array<RouteItem> = [
     component: () => import('./RefTest/index'),
   },
   {
+    path: '/context',
+    id: 'context',
+    title: 'context',
+    component: () => import('./ContextTest/index'),
+  },
+  {
     path: '/',
     id: 'home',
     title: '首页',
